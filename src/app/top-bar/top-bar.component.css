@@ -1,0 +1,19 @@
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #EF5350;
+  height: 5%;
+}
+
+nav h1 {
+  padding-top: 15px;
+  text-align: center;
+  font-size: 3em;
+  color: #F6F6F7;
+  font-weight: 550;
+}

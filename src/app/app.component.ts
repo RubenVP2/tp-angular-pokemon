@@ -2,7 +2,12 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
+  template: `
+    <!-- TopBar -->
+    <app-top-bar></app-top-bar>
+    <!-- Conteneur des card -->
+    <app-poke-list></app-poke-list>
+  `,
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
